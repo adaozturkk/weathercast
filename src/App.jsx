@@ -14,7 +14,7 @@ import { formatTime } from "./utils/formatTime";
 import HourlyForecast from "./components/HourlyForecast";
 import { formatPollution } from "./utils/formatPollution";
 import DailyForecast from "./components/DailyForecast";
-import Temperature from "./assets/icons/temperature";
+import Temperature from "./assets/icons/Temperature";
 import Humidity from "./assets/icons/Humidity";
 import Wind from "./assets/icons/Wind";
 import Pressure from "./assets/icons/Pressure";
