@@ -12,7 +12,7 @@ const DailyForecast = ({ dailyForecast }) => {
   }
 
   return (
-    <div className="flex justify-between items-center px-4 md:px-8 py-4 bg-sky-600/90 rounded-2xl active:translate-x-4 hover:translate-x-4 transition duration-500 md:duration-300 shadow-md">
+    <div className="flex justify-between items-center px-4 md:px-8 py-4 bg-sky-600/90 rounded-2xl active:translate-x-2.5 hover:translate-x-2.5 transition duration-500 md:duration-300 shadow-md">
       {/* Display day */}
       <div className="flex flex-col font-medium">
         <p>{getDay(dailyForecast.dt_txt)}</p>
