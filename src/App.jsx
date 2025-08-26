@@ -213,7 +213,7 @@ function App() {
             {/* Main information about current weather */}
             <div className="flex flex-col pt-32 md:pt-6 items-center justify-center">
               {/* Display weather icon */}
-              <div className="flex justify-center mt-20">
+              <div className="flex justify-center mt-16">
                 <WeatherIcon iconCode={icon} size={"big"} />
               </div>
 
